@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpringThirdPartyLibraries>
+  <Category name="Mapping and DTO">
+    <Library name="MapStruct" purpose="DTO-to-entity mapping" dependency="org.mapstruct:mapstruct" />
+    <Library name="ModelMapper" purpose="Object mapping" dependency="org.modelmapper:modelmapper" />
+    <Library name="Lombok" purpose="Reduce boilerplate code" dependency="org.projectlombok:lombok" />
+    <Library name="Immutables" purpose="Immutable classes generation" dependency="org.immutables:value" />
+  </Category>
+
+  <Category name="JSON and Serialization">
+    <Library name="Jackson" purpose="JSON serialization/deserialization" dependency="com.fasterxml.jackson.core:jackson-databind" />
+    <Library name="Gson" purpose="JSON processing" dependency="com.google.code.gson:gson" />
+  </Category>
+
+  <Category name="Validation">
+    <Library name="Hibernate Validator" purpose="Bean validation" dependency="org.hibernate.validator:hibernate-validator" />
+    <Library name="Jakarta Validation" purpose="Validation API" dependency="jakarta.validation:jakarta.validation-api" />
+  </Category>
+
+  <Category name="Database and Migrations">
+    <Library name="Flyway" purpose="Database migrations" dependency="org.flywaydb:flyway-core" />
+    <Library name="Liquibase" purpose="Database versioning" dependency="org.liquibase:liquibase-core" />
+    <Library name="HikariCP" purpose="JDBC connection pool" dependency="com.zaxxer:HikariCP" />
+    <Library name="Testcontainers" purpose="Integration testing with Docker" dependency="org.testcontainers:junit-jupiter" />
+  </Category>
+
+  <Category name="REST and HTTP Clients">
+    <Library name="OpenFeign" purpose="Declarative HTTP client" dependency="io.github.openfeign:feign-core" />
+    <Library name="Retrofit" purpose="HTTP client library" dependency="com.squareup.retrofit2:retrofit" />
+    <Library name="Resilience4j" purpose="Retry, timeout, circuit breaker" dependency="io.github.resilience4j:resilience4j-spring-boot3" />
+    <Library name="Springdoc OpenAPI" purpose="Swagger/OpenAPI docs" dependency="org.springdoc:springdoc-openapi-starter-webmvc-ui" />
+  </Category>
+
+  <Category name="Security">
+    <Library name="jjwt" purpose="JWT generation and validation" dependency="io.jsonwebtoken:jjwt-api" />
+    <Library name="Bouncy Castle" purpose="Cryptography" dependency="org.bouncycastle:bcprov-jdk18on" />
+    <Library name="Keycloak" purpose="Identity and access management" dependency="org.keycloak:keycloak-admin-client" />
+  </Category>
+
+  <Category name="Logging and Monitoring">
+    <Library name="SLF4J" purpose="Logging facade" dependency="org.slf4j:slf4j-api" />
+    <Library name="Logback" purpose="Logging backend" dependency="ch.qos.logback:logback-classic" />
+    <Library name="Log4j2" purpose="Logging backend" dependency="org.apache.logging.log4j:log4j-core" />
+    <Library name="Micrometer" purpose="Metrics and monitoring" dependency="io.micrometer:micrometer-core" />
+    <Library name="OpenTelemetry" purpose="Tracing and metrics" dependency="io.opentelemetry:opentelemetry-api" />
+  </Category>
+
+  <Category name="Messaging and Async">
+    <Library name="Kafka Client" purpose="Kafka producer/consumer" dependency="org.apache.kafka:kafka-clients" />
+    <Library name="RabbitMQ Java Client" purpose="AMQP messaging" dependency="com.rabbitmq:amqp-client" />
+    <Library name="Project Reactor" purpose="Reactive programming" dependency="io.projectreactor:reactor-core" />
+  </Category>
+
+  <Category name="Testing">
+    <Library name="JUnit 5" purpose="Unit testing" dependency="org.junit.jupiter:junit-jupiter" />
+    <Library name="Mockito" purpose="Mocking framework" dependency="org.mockito:mockito-core" />
+    <Library name="AssertJ" purpose="Fluent assertions" dependency="org.assertj:assertj-core" />
+    <Library name="RestAssured" purpose="REST API testing" dependency="io.rest-assured:rest-assured" />
+    <Library name="WireMock" purpose="Mock HTTP services" dependency="com.github.tomakehurst:wiremock-jre8" />
+  </Category>
+
+  <Category name="Utilities">
+    <Library name="Apache Commons Lang" purpose="Utilities" dependency="org.apache.commons:commons-lang3" />
+    <Library name="Guava" purpose="Utility library" dependency="com.google.guava:guava" />
+    <Library name="Vavr" purpose="Functional programming library" dependency="io.vavr:vavr" />
+  </Category>
+</SpringThirdPartyLibraries>

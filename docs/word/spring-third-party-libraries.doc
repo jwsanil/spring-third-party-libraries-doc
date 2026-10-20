@@ -1,0 +1,56 @@
+Spring Third-Party Libraries
+
+1. Mapping and DTO
+   - MapStruct — DTO-to-entity mapping
+   - ModelMapper — Object mapping
+   - Lombok — Reduce boilerplate code
+   - Immutables — Immutable classes generation
+
+2. JSON and Serialization
+   - Jackson — JSON serialization/deserialization
+   - Gson — JSON processing
+
+3. Validation
+   - Hibernate Validator — Bean validation
+   - Jakarta Validation — Validation API
+
+4. Database and Migrations
+   - Flyway — Database migrations
+   - Liquibase — Database versioning
+   - HikariCP — JDBC connection pool
+   - Testcontainers — Integration testing with Docker
+
+5. REST and HTTP Clients
+   - OpenFeign — Declarative HTTP client
+   - Retrofit — HTTP client library
+   - Resilience4j — Retry, timeout, circuit breaker
+   - Springdoc OpenAPI — Swagger/OpenAPI docs
+
+6. Security
+   - jjwt — JWT generation and validation
+   - Bouncy Castle — Cryptography
+   - Keycloak — Identity and access management
+
+7. Logging and Monitoring
+   - SLF4J — Logging facade
+   - Logback — Logging backend
+   - Log4j2 — Logging backend
+   - Micrometer — Metrics and monitoring
+   - OpenTelemetry — Tracing and metrics
+
+8. Messaging and Async
+   - Kafka Client — Kafka producer/consumer
+   - RabbitMQ Java Client — AMQP messaging
+   - Project Reactor — Reactive programming
+
+9. Testing
+   - JUnit 5 — Unit testing
+   - Mockito — Mocking framework
+   - AssertJ — Fluent assertions
+   - RestAssured — REST API testing
+   - WireMock — Mock HTTP services
+
+10. Utilities
+   - Apache Commons Lang — Utilities
+   - Guava — Utility library
+   - Vavr — Functional programming library
