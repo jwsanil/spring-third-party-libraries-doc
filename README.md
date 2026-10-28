@@ -3,8 +3,6 @@
 This repository contains reference documents for Spring third-party libraries grouped by category.
 
 ## Included files
-- `docs/csv/spring-third-party-libraries.csv`
-- `docs/xml/spring-third-party-libraries.xml`
 - `docs/word/spring-third-party-libraries.doc`
 
 ## Covered categories
